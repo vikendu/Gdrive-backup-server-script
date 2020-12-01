@@ -32,7 +32,7 @@ path = r"THE DIR THAT YOU WANT TO UPLOAD GOES HERE"
 
 dir = os.listdir(path)
 
-if len(dir) == 0:
+if len(dir) != 0:
 
 	#Create a folder for the upload; named according to day
 	folderName = datetime.today().strftime('%Y-%m-%d')
