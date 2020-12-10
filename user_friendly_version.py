@@ -39,7 +39,7 @@ gauth.SaveCredentialsFile("mycreds.txt")
 
 drive = GoogleDrive(gauth) 
 
-path = r"/mnt/c/Users/viken/Documents/gdriveServerProject/eleven_pm_upload"
+path = r"THE DIR YOU WANT TO UPLOAD GOES HERE"
 
 dir = os.listdir(path)
 i = 1
