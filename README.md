@@ -9,7 +9,7 @@ You also need pydrive `pip3 install PyDrive`
 A few dependencies whose latest versions break the script when uploading large files  
 So install the older versions as follows  
 `pip3 install httplib2==0.15.0`  
-`pip install google-api-python-client==1.6`
+`pip3 install google-api-python-client==1.6`
 
 Warnings:  
 1. Deletes all files from the local dir after uploading.  
